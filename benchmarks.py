@@ -8,7 +8,7 @@ import lttng
 runner_bin  = "./lttng-ust-benchmarks"
 props_dir   = "./jenkins_plot_data"
 js_out      = "./benchmarks.json"
-passes      = 3
+passes      = 100
 tmp_dir     = tempfile.mkdtemp()
 session_name     = str(uuid.uuid1())
 trace_path       = tmp_dir + "/" + session_name
